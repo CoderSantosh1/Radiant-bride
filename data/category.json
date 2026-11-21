@@ -1,0 +1,148 @@
+{
+  "common": {
+    "site": {
+      "name": "Radiant Bride",
+      "logo": "/images/logo.webp",
+      "tagline": "Beauty and elegance for your special day.",
+      "description": "Premium bridal makeup, hair styling, party makeup, and beauty services in Noida.",
+      "address": "A-28, Sector 62, Noida, Uttar Pradesh – 201309, India",
+      "addressLine1": "A-28, Sector 62, Noida",
+      "addressLine2": "Uttar Pradesh – 201309, India",
+      "phone": "+91 98765 43210",
+      "phoneHref": "tel:+919876543210",
+      "email": "info@xyz.com",
+      "emailHref": "mailto:info@xyz.com",
+      "contactButtonLabel": "Contact Us",
+      "mapQuery": "Sector 62 Noida"
+    },
+    "navigation": [
+      { "label": "Home", "href": "#home" },
+      { "label": "About Us", "href": "#about" },
+      { "label": "Our Services", "href": "#services" },
+      { "label": "Why Choose Us", "href": "#why-choose-us" },
+      { "label": "Gallery", "href": "#gallery" },
+      { "label": "Testimonials", "href": "#testimonials" },
+      { "label": "FAQs", "href": "#faqs" },
+      { "label": "Contact Us", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Bridal Makeup Studio",
+    "title": "Bridal Makeup",
+    "titleAccent": "Artists",
+    "description": "Crafting Stunning Bridal Looks for Your Special Day",
+    "image": "/images/bridal-hero-main.webp",
+    "imageAlt": "Radiant Bride bridal makeup look",
+    "artistImage": "/images/bridal-artist.webp",
+    "artistImageAlt": "Bridal makeup artist applying makeup"
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "title": "Creating Timeless",
+    "titleAccent": "Bridal Looks",
+    "description": "We are a premium bridal makeup studio dedicated to enhancing your natural beauty with expert artistry, personalized looks, and high-quality products for every special occasion.",
+    "image": "/images/about-main.png",
+    "imageAlt": "Makeup artist applying bridal makeup",
+    "accentImage": "/images/about-brushes.png",
+    "accentImageAlt": "Makeup brushes in a golden holder with roses"
+  },
+  "services": {
+    "eyebrow": "Our Services",
+    "title": "Makeup &",
+    "titleAccent": "Beauty Services",
+    "description": "Professional makeup and beauty services tailored to make you look stunning for every special occasion.",
+    "items": [
+      { "title": "Bridal Makeup", "image": "/images/service-bridal.png", "icon": "bridal" },
+      { "title": "Hair Makeup", "image": "/images/service-hair.png", "icon": "hair" },
+      { "title": "Face & Eye Makeup", "image": "/images/service-face.png", "icon": "face" },
+      { "title": "Party Makeup", "image": "/images/service-party.png", "icon": "party" },
+      { "title": "Engagement Makeup", "image": "/images/service-engagement.png", "icon": "engagement" },
+      { "title": "Hair Styling", "image": "/images/service-styling.png", "icon": "styling" }
+    ]
+  },
+  "whyChooseUs": {
+    "eyebrow": "Why Choose Us",
+    "title": "Trusted by Clients Who",
+    "titleAccent": "Love to Shine",
+    "description": "We are committed to delivering exceptional makeup and beauty services with a personalized touch, premium products, and unmatched attention to detail.",
+    "image": "/images/why-choose-us.png",
+    "imageAlt": "Bride with traditional jewellery and bridal makeup",
+    "features": [
+      {
+        "title": "Expert Artists",
+        "description": "Skilled professionals with bridal and occasion expertise.",
+        "href": "#about",
+        "icon": "crown"
+      },
+      {
+        "title": "Client Satisfaction",
+        "description": "A trusted choice with consistent 5-star reviews.",
+        "href": "#testimonials",
+        "icon": "satisfaction"
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Our Gallery",
+    "title": "Bridal Makeup",
+    "titleAccent": "Gallery",
+    "description": "A glimpse of our makeup artistry, showcasing beautiful transformations for brides and special occasions.",
+    "items": [
+      { "src": "/images/gallery-1.webp", "alt": "Bride with pink floral hair accessory", "className": "col-span-1 row-span-1" },
+      { "src": "/images/gallery-2.webp", "alt": "Bride with maang tikka and emerald jewellery", "className": "col-span-1 row-span-1" },
+      { "src": "/images/gallery-3.webp", "alt": "Makeup artist applying eyeliner", "className": "col-span-2 row-span-1" },
+      { "src": "/images/gallery-4.webp", "alt": "Bride in red lehenga with rose hair décor", "className": "col-span-2 row-span-2" },
+      { "src": "/images/gallery-5.webp", "alt": "Bridal portrait with jasmine flowers", "className": "col-span-1 row-span-1" },
+      { "src": "/images/gallery-6.webp", "alt": "Bride with gold maang tikka and necklace", "className": "col-span-1 row-span-1" },
+      { "src": "/images/gallery-7.webp", "alt": "Bridal hairstyle with white flowers", "className": "col-span-1 row-span-1" },
+      { "src": "/images/gallery-8.webp", "alt": "Bride with pink floral hair accessory and jewellery", "className": "col-span-1 row-span-1" },
+      { "src": "/images/gallery-9.webp", "alt": "Makeup brushes in a golden holder with pink flowers", "className": "col-span-2 row-span-1" },
+      { "src": "/images/gallery-10.webp", "alt": "Eyeshadow palette and lipsticks", "className": "col-span-2 row-span-1" }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "What Our",
+    "titleAccent": "Clients Say",
+    "description": "Hear from our happy clients who trust us for their makeup and beauty transformations.",
+    "image": "/images/testimonial-main.webp",
+    "imageAlt": "Smiling bride with floral hairstyle and bridal makeup",
+    "items": [
+      { "name": "Priya Sharma", "role": "Bride", "quote": "The makeup was absolutely flawless and long-lasting. The team understood exactly what I wanted and made me feel so beautiful and confident on my big day!", "avatar": "/images/testimonial-main.webp" },
+      { "name": "Anjali Verma", "role": "Regular Client", "quote": "A wonderful experience from start to finish! The staff is professional, friendly, and highly skilled. I always leave feeling refreshed and glowing.", "avatar": "/images/testimonial-main.webp" },
+      { "name": "Neha Gupta", "role": "Bride", "quote": "From the trial to the wedding morning, everything was perfectly planned. My look stayed fresh through every ritual and all the photos came out stunning.", "avatar": "/images/testimonial-main.webp" },
+      { "name": "Ritika Singh", "role": "Engagement Client", "quote": "They listened to every detail and gave me a soft, natural glam that I loved. Everyone kept asking who did my makeup!", "avatar": "/images/testimonial-main.webp" },
+      { "name": "Kavya Mehta", "role": "Party Makeup Client", "quote": "Quick, professional and so talented. The makeup lasted all night and I felt confident the whole evening. Highly recommended!", "avatar": "/images/testimonial-main.webp" },
+      { "name": "Sneha Kapoor", "role": "Bride", "quote": "The artists made my bridal morning calm and joyful. The finish was flawless and the hairstyle stayed perfect until the last dance.", "avatar": "/images/testimonial-main.webp" }
+    ]
+  },
+  "faqs": {
+    "eyebrow": "FAQs",
+    "title": "Frequently Asked",
+    "titleAccent": "Questions",
+    "description": "Find answers to the most common questions about our makeup and beauty services.",
+    "image": "/images/faq-main.webp",
+    "imageAlt": "Bride with emerald jewellery and floral hairstyle",
+    "items": [
+      { "question": "What makeup services do you offer?", "answer": "We offer a wide range of services including bridal makeup, engagement makeup, party makeup, editorial makeup, and personalized beauty consultations." },
+      { "question": "Do you provide bridal makeup at the venue?", "answer": "Yes, our artists can travel to your home, hotel or wedding venue so you can get ready comfortably. Travel charges may apply depending on the location." },
+      { "question": "How early should I book my appointment?", "answer": "We recommend booking 2 to 3 months before your wedding date, especially for peak wedding season. For parties and other occasions, 1 to 2 weeks ahead is usually enough." },
+      { "question": "Do you use premium and skin-friendly products?", "answer": "Absolutely. We use high-quality, long-lasting products from trusted brands, and we can adapt to your skin type and any sensitivities or allergies." },
+      { "question": "Can I do a makeup trial before the final booking?", "answer": "Yes, we offer makeup trials so you can finalize your look with our artist before the big day. Please contact us to schedule one." }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact Us",
+    "title": "Get in",
+    "titleAccent": "Touch",
+    "description": "Have a question or want to book your makeup appointment? We'd love to hear from you!",
+    "formTitle": "Book Appointment",
+    "formDescription": "Schedule your makeup or beauty session with our experts.",
+    "successMessage": "Your email app should open with the appointment details ready to send."
+  },
+  "footer": {
+    "subtitle": "Bridal Makeup Studio",
+    "description": "Professional makeup and beauty services for brides, special occasions, and events. We create stunning, timeless looks that reflect your unique beauty.",
+    "copyright": "All Rights Reserved."
+  }
+}
