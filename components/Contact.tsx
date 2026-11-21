@@ -176,9 +176,9 @@ export default function Contact() {
           {/* Left: details + map */}
           <div className="rounded-[26px] bg-[#fdeeed] p-5 sm:p-7">
             <div className="grid gap-5 sm:grid-cols-3 sm:gap-4">
-              <InfoItem icon={<PinIcon />} title="Our Address">
+              <InfoItem icon={<PinIcon />} title="Address">
                 {site.addressLine1}
-                <br />
+                
                 {site.addressLine2}
               </InfoItem>
 

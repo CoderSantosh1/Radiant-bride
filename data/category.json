@@ -5,15 +5,15 @@
       "logo": "/images/logo.webp",
       "tagline": "Beauty and elegance for your special day.",
       "description": "Premium bridal makeup, hair styling, party makeup, and beauty services in Noida.",
-      "address": "A-28, Sector 62, Noida, Uttar Pradesh – 201309, India",
-      "addressLine1": "A-28, Sector 62, Noida",
-      "addressLine2": "Uttar Pradesh – 201309, India",
-      "phone": "+91 98765 43210",
-      "phoneHref": "tel:+919876543210",
+      "address": "Manhattan, NY 10036, USA",
+      "addressLine1": "",
+      "addressLine2": "Manhattan, NY 10036, USA",
+      "phone": "+1 000000",
+      "phoneHref": "tel:+1000000",
       "email": "info@xyz.com",
       "emailHref": "mailto:info@xyz.com",
       "contactButtonLabel": "Contact Us",
-      "mapQuery": "Sector 62 Noida"
+      "mapQuery": "Manhattan, NY 10036, USA"
     },
     "navigation": [
       { "label": "Home", "href": "#home" },
@@ -143,6 +143,6 @@
   "footer": {
     "subtitle": "Bridal Makeup Studio",
     "description": "Professional makeup and beauty services for brides, special occasions, and events. We create stunning, timeless looks that reflect your unique beauty.",
-    "copyright": "All Rights Reserved."
+    "copyright": "All Rights Reserved. Powered by Lestow."
   }
 }
