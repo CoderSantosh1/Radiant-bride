@@ -46,25 +46,30 @@ export default function Footer() {
           <span className="h-[2px] flex-1 bg-gradient-to-r from-[#e0a21f] to-[#f5c542]" />
         </div>
 
-        {/* Nav */}
-        <nav
-          aria-label="Footer"
-          className="mt-6 flex w-full flex-nowrap items-center justify-between gap-1 overflow-x-auto whitespace-nowrap"
-        >
-          {navLinks.map((link, index) => (
-            <div key={link.label} className="flex items-center">
-              <a
-                href={link.href}
-                className="px-1.5 font-serif text-[12px] text-white transition hover:text-[#f5c542] sm:px-3 sm:text-[18px]"
-              >
-                {link.label}
-              </a>
-              {index < navLinks.length - 1 && (
-                <span className="hidden h-6 w-[2px] bg-[#f5c542] sm:block" />
-              )}
-            </div>
-          ))}
-        </nav>
+
+            {/* Nav */}
+            <nav
+              aria-label="Footer"
+              className="mt-6 flex w-full flex-nowrap items-center justify-between gap-1 overflow-x-auto whitespace-nowrap max-sm:grid max-sm:grid-cols-4 max-sm:gap-x-2 max-sm:gap-y-3 max-sm:overflow-visible"
+            >
+              {navLinks.map((link, index) => (
+                <div
+                  key={link.label}
+                  className="flex items-center max-sm:justify-center"
+                >
+                  <a
+                    href={link.href}
+                    className="px-1.5 font-serif text-[12px] text-white transition hover:text-[#f5c542] sm:px-3 sm:text-[18px] max-sm:whitespace-nowrap"
+                  >
+                    {link.label}
+                  </a>
+
+                  {index < navLinks.length - 1 && (
+                    <span className="hidden h-6 w-[2px] bg-[#f5c542] sm:block" />
+                  )}
+                </div>
+              ))}
+            </nav>
 
         {/* Contact row */}
         <div className="mt-7 flex w-full max-w-[680px] flex-col items-stretch gap-5 sm:max-w-none sm:flex-row sm:items-center sm:justify-center sm:gap-0">
@@ -118,24 +123,54 @@ export default function Footer() {
           </a>
         </div>
 
-        <div className="mt-6 flex items-center gap-4" role="group" aria-label="Social media">
-          <span aria-label="Instagram" title="Instagram">
+              <div
+          className="mt-6 flex items-center gap-4"
+          role="group"
+          aria-label="Social media"
+        >
+          {/* Instagram */}
+          <a
+            href="https://www.instagram.com/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            title="Instagram"
+            className="text-white transition-all duration-300 hover:scale-110 hover:text-[#E4405F] active:scale-95"
+          >
             <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" aria-hidden="true">
               <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" strokeWidth="2" />
               <circle cx="12" cy="12" r="4" stroke="currentColor" strokeWidth="2" />
               <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
             </svg>
-          </span>
-          <span aria-label="Facebook" title="Facebook">
+          </a>
+
+          {/* Facebook */}
+          <a
+            href="https://www.facebook.com/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+            title="Facebook"
+            className="text-white transition-all duration-300 hover:scale-110 hover:text-[#1877F2] active:scale-95"
+          >
             <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden="true">
               <path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.4v3h2.7v8h3.4Z" />
             </svg>
-          </span>
-          <span aria-label="YouTube" title="YouTube">
+          </a>
+
+          {/* YouTube */}
+          <a
+            href="https://www.youtube.com/@yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube"
+            title="YouTube"
+            className="text-white transition-all duration-300 hover:scale-110 hover:text-[#FF0000] active:scale-95"
+          >
             <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden="true">
               <path d="M23 7.1a3 3 0 0 0-2.1-2.2C19 4.4 12 4.4 12 4.4s-7 0-8.9.5A3 3 0 0 0 1 7.1 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.9 3 3 0 0 0 2.1 2.2c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.2 31 31 0 0 0 .5-4.9 31 31 0 0 0-.5-4.9ZM9.7 15.5v-7l6 3.5-6 3.5Z" />
             </svg>
-          </span>
+          </a>
         </div>
 
         {/* Bottom line + copyright */}

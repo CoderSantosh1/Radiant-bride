@@ -39,7 +39,7 @@ export default function Hero() {
           {/* Lotus Decoration */}
           <div className="mt-5 hidden w-[225px] items-center gap-4 sm:mt-6 sm:flex">
             <span className="h-px flex-1 bg-[#e9a32a]" />
-            <LotusIcon className="h-9 w-12 shrink-0 text-[#e99b19]" />
+            <LotusIcon className="h-14 w-14 shrink-0 text-[#e99b19]" />
             <span className="h-px flex-1 bg-[#e9a32a]" />
           </div>
 

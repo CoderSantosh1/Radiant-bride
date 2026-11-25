@@ -41,9 +41,9 @@
     "title": "Creating Timeless",
     "titleAccent": "Bridal Looks",
     "description": "We are a premium bridal makeup studio dedicated to enhancing your natural beauty with expert artistry, personalized looks, and high-quality products for every special occasion.",
-    "image": "/images/about-main.png",
+    "image": "/images/about-main.webp",
     "imageAlt": "Makeup artist applying bridal makeup",
-    "accentImage": "/images/about-brushes.png",
+    "accentImage": "/images/about-brushes-new.webp",
     "accentImageAlt": "Makeup brushes in a golden holder with roses"
   },
   "services": {
@@ -52,12 +52,12 @@
     "titleAccent": "Beauty Services",
     "description": "Professional makeup and beauty services tailored to make you look stunning for every special occasion.",
     "items": [
-      { "title": "Bridal Makeup", "image": "/images/service-bridal.png", "icon": "bridal" },
-      { "title": "Hair Makeup", "image": "/images/service-hair.png", "icon": "hair" },
-      { "title": "Face & Eye Makeup", "image": "/images/service-face.png", "icon": "face" },
-      { "title": "Party Makeup", "image": "/images/service-party.png", "icon": "party" },
-      { "title": "Engagement Makeup", "image": "/images/service-engagement.png", "icon": "engagement" },
-      { "title": "Hair Styling", "image": "/images/service-styling.png", "icon": "styling" }
+      { "title": "Bridal Makeup", "image": "/images/service-bridal.webp", "icon": "bridal" },
+      { "title": "Hair Makeup", "image": "/images/service-engagement.webp", "icon": "hair" },
+      { "title": "Face & Eye Makeup", "image": "/images/service-face.webp", "icon": "face" },
+      { "title": "Party Makeup", "image": "/images/service-engagement.webp", "icon": "party" },
+      { "title": "Engagement Makeup", "image": "/images/service-engagement.webp", "icon": "engagement" },
+      { "title": "Hair Styling", "image": "/images/service-engagement.webp", "icon": "styling" }
     ]
   },
   "whyChooseUs": {
@@ -65,7 +65,7 @@
     "title": "Trusted by Clients Who",
     "titleAccent": "Love to Shine",
     "description": "We are committed to delivering exceptional makeup and beauty services with a personalized touch, premium products, and unmatched attention to detail.",
-    "image": "/images/why-choose-us.png",
+    "image": "/images/why-choose-us.webp",
     "imageAlt": "Bride with traditional jewellery and bridal makeup",
     "features": [
       {
