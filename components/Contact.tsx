@@ -172,7 +172,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="mt-10 grid gap-6 lg:grid-cols-[1.02fr_1fr] lg:gap-[2.4vw]">
+        <div className="mt-10 grid gap-6 lg:grid-cols-[1.12fr_0.88fr] lg:gap-[2.4vw]">
           {/* Left: details + map */}
           <div className="rounded-[26px] bg-[#fdeeed] p-5 sm:p-7">
             <div className="grid gap-5 sm:grid-cols-3 sm:gap-4">

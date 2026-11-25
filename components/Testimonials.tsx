@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import categoryData from "@/data/category.json";
 import type { CategoryData, Testimonial } from "@/types/category";
 
@@ -41,16 +42,16 @@ function Stars() {
 
 function TestimonialCard({ item }: { item: Testimonial }) {
   return (
-    <article className="relative flex h-full flex-col rounded-[18px] bg-[#fdeeec] px-5 pb-6 pt-14 shadow-[0_10px_28px_rgba(80,0,20,0.10)] sm:px-6">
+    <article className="relative flex h-full min-w-0 flex-col rounded-[18px] bg-[#fdeeec] px-5 pb-6 pt-16 shadow-[0_10px_28px_rgba(80,0,20,0.10)] sm:px-6">
       {/* Quote mark */}
       <span
         aria-hidden="true"
-        className="absolute left-5 top-[-22px] font-serif text-[88px] font-bold leading-none text-[#8e0f30] sm:left-6"
+        className="absolute left-5 top-1 font-serif text-[60px] font-bold leading-none text-[#d49a3a] sm:left-6"
       >
         &ldquo;
       </span>
 
-      <div className="absolute left-5 top-3 sm:left-6">
+      <div className="absolute left-[76px] top-5 sm:left-[82px]">
         <Stars />
       </div>
 
@@ -69,7 +70,7 @@ function TestimonialCard({ item }: { item: Testimonial }) {
           />
         </span>
 
-        <span className="h-10 w-px bg-[#d9b9b6]" />
+        <span className="h-10 w-px bg-[#d49a3a]" />
 
         <div>
           <p className="font-serif text-[19px] font-bold leading-tight text-[#0f172a] sm:text-[21px]">
@@ -103,6 +104,9 @@ export default function Testimonials() {
     current * perPage + perPage,
   );
 
+  const previous = () => setPage((current - 1 + pageCount) % pageCount);
+  const next = () => setPage((current + 1) % pageCount);
+
   return (
     <section
       id="testimonials"
@@ -130,14 +134,18 @@ export default function Testimonials() {
           </p>
 
           {/* Cards */}
-          <div
-            className={`mt-14 grid w-full gap-6 sm:gap-[38px] ${
-              perPage === 1 ? "grid-cols-1" : "grid-cols-2"
-            }`}
-          >
-            {visible.map((item) => (
-              <TestimonialCard key={item.name} item={item} />
-            ))}
+          <div className="mt-14 flex w-full items-center gap-2 sm:gap-3">
+
+            <div
+              className={`grid min-w-0 flex-1 gap-4 sm:gap-[38px] ${
+                perPage === 1 ? "grid-cols-1" : "grid-cols-2"
+              }`}
+            >
+              {visible.map((item) => (
+                <TestimonialCard key={item.name} item={item} />
+              ))}
+            </div>
+          
           </div>
 
           {/* Dots */}

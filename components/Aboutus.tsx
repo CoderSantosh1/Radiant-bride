@@ -33,9 +33,9 @@ export default function About() {
           </div>
 
           {/* Heading */}
-          <h2 className="font-serif text-[clamp(38px,4.6vw,66px)] font-semibold italic leading-[0.98] tracking-[-0.03em] text-[#111827]">
-            {data.title}
-            <span className="block text-[#a5092f]">{data.titleAccent}</span>
+          <h2 className="font-serif text-[clamp(28px,8vw,66px)] font-semibold italic leading-[0.98] tracking-[-0.04em] text-[#111827] sm:text-[clamp(38px,4.6vw,66px)] sm:tracking-[-0.03em]">
+            <span className="block whitespace-nowrap">{data.title}</span>
+            <span className="block whitespace-nowrap text-[#a5092f]">{data.titleAccent}</span>
           </h2>
 
           {/* Description */}

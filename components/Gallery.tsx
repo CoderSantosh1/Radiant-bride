@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 import categoryData from "@/data/category.json";
 import type { CategoryData } from "@/types/category";
+import LotusIcon from "@/components/LotusIcon";
 
 const data = (categoryData as CategoryData).gallery;
 const items = data.items;
@@ -63,7 +64,7 @@ export default function Gallery() {
   return (
     <section
       id="gallery"
-      className="relative isolate overflow-hidden bg-white py-10 sm:py-12"
+      className="relative bg-white py-10 sm:py-12"
     >
       <div className="mx-auto max-w-[1200px] px-4 sm:px-9">
         {/* Heading */}
@@ -83,32 +84,7 @@ export default function Gallery() {
           {/* Lotus divider */}
           <div className="mt-1 flex w-[300px] max-w-full items-center gap-3">
             <span className="h-px flex-1 bg-[#d49a3a]" />
-            <svg
-              viewBox="0 0 60 42"
-              className="h-6 w-8 shrink-0 text-[#d49a3a]"
-              fill="none"
-            >
-              <path
-                d="M30 36C17 27 17 15 30 3C43 15 43 27 30 36Z"
-                stroke="currentColor"
-                strokeWidth="2"
-              />
-              <path
-                d="M30 36C20 24 23 14 30 3C37 14 40 24 30 36Z"
-                stroke="currentColor"
-                strokeWidth="1.5"
-              />
-              <path
-                d="M30 36C13 37 5 26 11 20C18 27 24 32 30 36Z"
-                stroke="currentColor"
-                strokeWidth="1.5"
-              />
-              <path
-                d="M30 36C47 37 55 26 49 20C42 27 36 32 30 36Z"
-                stroke="currentColor"
-                strokeWidth="1.5"
-              />
-            </svg>
+            <LotusIcon className="h-6 w-8 shrink-0 text-[#d49a3a]" />
             <span className="h-px flex-1 bg-[#d49a3a]" />
           </div>
 

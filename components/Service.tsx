@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useEffect, useState, type ReactNode } from "react";
 import categoryData from "@/data/category.json";
 import type { CategoryData, ServiceItem } from "@/types/category";
+import LotusIcon from "@/components/LotusIcon";
 
 const data = (categoryData as CategoryData).services;
 
@@ -171,32 +172,7 @@ export default function Services() {
           {/* Lotus divider */}
           <div className="mt-1 flex w-[320px] max-w-full items-center gap-3">
             <span className="h-px flex-1 bg-[#d49a3a]" />
-            <svg
-              viewBox="0 0 60 42"
-              className="h-7 w-9 shrink-0 text-[#d49a3a]"
-              fill="none"
-            >
-              <path
-                d="M30 36C17 27 17 15 30 3C43 15 43 27 30 36Z"
-                stroke="currentColor"
-                strokeWidth="2"
-              />
-              <path
-                d="M30 36C20 24 23 14 30 3C37 14 40 24 30 36Z"
-                stroke="currentColor"
-                strokeWidth="1.5"
-              />
-              <path
-                d="M30 36C13 37 5 26 11 20C18 27 24 32 30 36Z"
-                stroke="currentColor"
-                strokeWidth="1.5"
-              />
-              <path
-                d="M30 36C47 37 55 26 49 20C42 27 36 32 30 36Z"
-                stroke="currentColor"
-                strokeWidth="1.5"
-              />
-            </svg>
+            <LotusIcon className="h-7 w-9 shrink-0 text-[#d49a3a]" />
             <span className="h-px flex-1 bg-[#d49a3a]" />
           </div>
 
@@ -211,7 +187,7 @@ export default function Services() {
             type="button"
             onClick={prev}
             aria-label="Previous services"
-            className="absolute left-0 top-1/2 z-30 grid h-10 w-10 -translate-y-1/2 place-items-center rounded-full border-2 border-[#c58a2e] bg-[#fffaf6] text-[#8e0f30] transition hover:bg-[#8e0f30] hover:text-white sm:-left-1 lg:-left-2"
+            className="absolute left-1 top-1/2 z-30 grid h-10 w-10 -translate-y-1/2 place-items-center rounded-full border-2 border-[#c58a2e] bg-[#fffaf6] text-[#8e0f30] transition hover:bg-[#8e0f30] hover:text-white sm:-left-1 lg:-left-2"
           >
             <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none">
               <path
@@ -225,7 +201,7 @@ export default function Services() {
           </button>
 
           <div
-            className={`mx-auto grid max-w-[1300px] gap-8 px-10 sm:px-14 ${
+            className={`mx-auto grid max-w-[1300px] gap-8 px-12 sm:px-14 ${
               perPage === 1
                 ? "grid-cols-1"
                 : perPage === 2
@@ -242,7 +218,7 @@ export default function Services() {
             type="button"
             onClick={next}
             aria-label="Next services"
-            className="absolute right-0 top-1/2 z-30 grid h-10 w-10 -translate-y-1/2 place-items-center rounded-full border-2 border-[#c58a2e] bg-[#fffaf6] text-[#8e0f30] transition hover:bg-[#8e0f30] hover:text-white sm:-right-1 lg:-right-2"
+            className="absolute right-1 top-1/2 z-30 grid h-10 w-10 -translate-y-1/2 place-items-center rounded-full border-2 border-[#c58a2e] bg-[#fffaf6] text-[#8e0f30] transition hover:bg-[#8e0f30] hover:text-white sm:-right-1 lg:-right-2"
           >
             <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none">
               <path

@@ -85,9 +85,9 @@ export default function WhyChooseUs() {
       id="why-choose-us"
       className="relative isolate overflow-hidden bg-white"
     >
-      <div className="mx-auto grid max-w-[1600px] items-center gap-10 px-6 py-12 sm:px-9 lg:grid-cols-[0.8fr_1.2fr] lg:gap-[4vw] lg:px-[3.2vw] lg:py-0">
+      <div className="mx-auto grid max-w-[1600px] items-start gap-10 px-6 py-12 sm:px-9 lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] lg:gap-[3vw] lg:px-[3.2vw] lg:py-8">
         {/* Left Image */}
-        <div className="relative mx-auto h-[460px] w-full max-w-[460px] sm:h-[560px] lg:mx-0 lg:h-[min(620px,calc(100svh-20px))] lg:max-w-none">
+        <div className="relative mx-auto h-[460px] w-full max-w-[460px] sm:h-[560px] lg:mx-0 lg:h-[min(620px,calc(100svh-80px))] lg:max-w-none">
           {/* Pink offset panel */}
           <div className="absolute -top-12 left-[26%] right-[-5%] h-[92%] bg-[#fbe9ea] lg:-top-0" />
 
@@ -104,7 +104,7 @@ export default function WhyChooseUs() {
         </div>
 
         {/* Right Content */}
-        <div className="relative z-20 flex w-full flex-col items-start lg:py-10">
+        <div className="relative z-20 flex min-w-0 w-full flex-col items-start lg:py-2">
           {/* Eyebrow */}
           <div className="mb-5 flex items-center gap-4 sm:ml-[3.5%]">
             <span className="text-[16px] font-bold tracking-[4px] text-[#a5092f] sm:text-[21px]">
@@ -114,7 +114,7 @@ export default function WhyChooseUs() {
           </div>
 
           {/* Heading */}
-          <h2 className="font-serif text-[clamp(36px,4.5vw,66px)] font-medium leading-[1.02] tracking-[-0.035em] text-[#0b0b0b]">
+          <h2 className="max-w-[680px] font-serif text-[clamp(32px,8vw,66px)] font-medium leading-[1.02] tracking-[-0.04em] text-[#0b0b0b] sm:text-[clamp(36px,4.5vw,66px)] sm:tracking-[-0.035em]">
             {data.title}
             <span className="block font-semibold italic text-[#a5092f]">
               {data.titleAccent}
