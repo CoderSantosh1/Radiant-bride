@@ -1,10 +1,5 @@
 @import "tailwindcss";
 
-:root {
-  --maroon: #8e0f30;
-  --gold: #d49a3a;
-}
-
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
